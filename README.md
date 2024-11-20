@@ -15,12 +15,7 @@ Where:
 ## Example Code
 
 ```python
-def dot_product(A, B):
-    return sum(a * b for a, b in zip(A, B))
-
-A = [1, 2, 3]
-B = [4, 5, 6]
-print(dot_product(A, B))  # Output: 32
+  # Output: 32
 ```
 ## Picture
 ![alt.txt](https://cdn1.byjus.com/wp-content/uploads/2018/11/maths/2016/06/02115120/Dot-Product-Of-Vectors.jpg)
@@ -87,4 +82,4 @@ print(dot_product(A, B))  # Output: 32
 \[
 A \cdot B = \sum_{i=1}^{n} A_i \cdot B_i
 \]
-..
+**thanks**
