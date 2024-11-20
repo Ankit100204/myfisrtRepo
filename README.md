@@ -87,4 +87,4 @@ print(dot_product(A, B))  # Output: 32
 \[
 A \cdot B = \sum_{i=1}^{n} A_i \cdot B_i
 \]
-
+..
