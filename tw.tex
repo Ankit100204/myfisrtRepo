@@ -1,0 +1,49 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage{graphics}
+\usepackage{multirow}  % Add this for multirow functionality
+\usepackage{geometry}
+\geometry{margin=1in}  % Set the margins to 1 inch
+
+\title{\Large \textbf{Student Academic Report}}
+\author{Computer Science and Engineering Department}
+\date{}  % Empty date to avoid displaying the current date
+
+\begin{document}
+	
+	\maketitle
+	
+	\paragraph*{Performance Overview:} 
+	The academic performance of the Computer Science Batch of 2027 has improved significantly compared to the 2026 batch. More than 80 percent of the students scored greater than 85 marks. This achievement is rare at MNIT in recent years. The students have performed exceptionally well in every section. Some of them include:
+	
+	\section*{Observations}
+	\begin{itemize}
+		\item \textbf{Attendance Percentage:} More than 75\%.
+		\item \textbf{Number of Subjects Taken:} 11.
+		\item \textbf{Average Marks of the Class:} 85.
+	\end{itemize}
+	
+	\section*{Student Performance}
+	\begin{table}[h]
+		\centering
+		\small  % Reduce font size for the table
+		\begin{tabular}{|c|c|c|c|c|c|}
+			\hline
+			\multirow{2}{*}{\textbf{Roll Number}} & \multirow{2}{*}{\textbf{Name}} & \multicolumn{4}{|c|}{\textbf{Marks}} \\
+			\cline{3-6}
+			&  & \textbf{Algorithm Design} & \textbf{Computer Networks} & \textbf{Information Technology} & \textbf{Computer Architecture} \\
+			\hline
+			24 & Raj & 87 & 84 & 98 & 78 \\
+			\hline
+			25 & Amit & 87 & 78 & 98 & 65 \\
+			\hline
+			26 & Sumit & 78 & 98 & 68 & 98 \\
+			\hline
+			27 & Suresh & 98 & 78 & 98 & 90 \\
+			\hline
+			\textbf{Total} & & 350 & 348 & 362 & 242 \\
+			\hline
+		\end{tabular}
+		\caption{Student Performance in Different Subjects}
+	\end{table}
+	
+\end{document}
